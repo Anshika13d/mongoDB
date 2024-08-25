@@ -8,6 +8,6 @@ mongoimport jsonfile.json -d database_name -c collection_name
 mongoimport products.json -d shop -c products
 mongoimport products.jsoon -d shop -c products --jsonArray
 
-##export the json files
+## export the json files
 mongoexport -d database_name -c collection_name -o path_to_json_file_to_export
 
