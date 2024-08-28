@@ -1,0 +1,16 @@
+its like projection
+
+reshape documents, include or exclude the fields and perform oprations on them
+
+{$project : {filed: expression, ...}}
+
+db.products.aggregate([{$project: {name: 1, discountedPrice: {$subtract: ["$price", 5]}}}])
+
+projects the name field and calculates a discountedPrice field by subtracting 5 from the price
+
+uses:
+$sum
+$subtract
+$multiply
+$avg
+etc..

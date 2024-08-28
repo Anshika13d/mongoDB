@@ -1,0 +1,3 @@
+$unwind stage deconstructs an array field and produces multiple douments
+
+{$unwind: array}

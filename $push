@@ -1,0 +1,5 @@
+to add any document or element or field in an array we use $push
+
+{$push: <expression>}
+
+db.products.aggregate([{$group: {_id: {company: "$company"}, products: {$push: "$name"}}}])

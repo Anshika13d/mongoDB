@@ -1,0 +1,12 @@
+Syntax
+$filter has the following syntax:
+
+{
+    $filter:
+      {
+         input: <array>,
+         as: <string>,
+         cond: <expression>,
+         limit: <number expression>
+      }
+}

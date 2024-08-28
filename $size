@@ -1,0 +1,3 @@
+tells size of array
+can not be used with $group 
+instead can be used with other aggregations
